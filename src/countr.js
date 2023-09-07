@@ -5,7 +5,8 @@ import { useState } from 'react';
 
 const Counter = () => {
 
-    const [v, setv] = useState(0);
+   let  [v, setv] = useState(0);
+
 
     const inc = () => {
         setv(v + 1);
@@ -21,7 +22,8 @@ const Counter = () => {
 
     return (
         <div className="container">
-            <h1>{v}</h1>
+            <h1 >{v}
+            </h1>
 
             <div id='btn'>
                 <span onClick={dec}>-</span>
@@ -33,4 +35,4 @@ const Counter = () => {
 }
 
 
-export default Counter
+export default Counter;

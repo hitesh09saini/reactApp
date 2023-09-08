@@ -1,5 +1,5 @@
 {
-  "homepage": "https://hitesh09saini.github.io/reactApp/",
+  "homepage": "https://hitesh09saini.github.io/reactApp",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -14,7 +14,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build -b main -r https://hitesh09saini.github.io/reactApp",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

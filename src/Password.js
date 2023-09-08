@@ -26,7 +26,7 @@ const Password = () => {
 
   useEffect(() => {
     passwordGenerator();
-  }, [length, NumAllow, charAllow, setPassword])
+  }, [passwordGenerator])
 
 
   // useRef hook

@@ -7,7 +7,7 @@ const Counter = () => {
 
    let  [v, setv] = useState(0);
 
-
+     
     const inc = () => {
         setv(v + 1);
     }
@@ -20,17 +20,22 @@ const Counter = () => {
 
     }
 
+   
+
     return (
+        <div className='App'>
         <div className="container">
-            <h1 >{v}
+            <h1 className='text-center text-4xl'>{v}
             </h1>
 
             <div id='btn'>
                 <span onClick={dec}>-</span>
-                <span onClick={inc}>+</span>
+                <span  onClick={inc}>+</span>
             </div>
         </div>
+        </div>
 
+       
     );
 }
 

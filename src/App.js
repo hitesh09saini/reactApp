@@ -1,12 +1,15 @@
-import Counter from './countr';
+
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
+import Password from './Password.js';
 
-       <Counter/>
-    </div>
+function App() {
+
+  return (
+   
+     <>
+       <Password/>
+     </>
   );
 }
 

@@ -1,14 +1,19 @@
 
 import './App.css';
+// import Counter from './countr.js';
+import ColorChanger from './ColorChanger'
+// import Password from './Password.js';
 
-import Password from './Password.js';
+// import CurrencyConvertor from './CurrencyConvertor';
 
 function App() {
 
   return (
-   
      <>
-       <Password/>
+
+    {/* <CurrencyConvertor></CurrencyConvertor> */}
+      <ColorChanger></ColorChanger>
+       
      </>
   );
 }
